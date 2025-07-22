@@ -10,7 +10,6 @@
  */
 class Solution {
     public ListNode partition(ListNode head, int x) {
-        if (head == null) return head;
         //heads
         ListNode lessThenXhead = new ListNode(0);
         ListNode xOrGreaterHead = new ListNode(0);
