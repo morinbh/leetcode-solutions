@@ -31,7 +31,8 @@ class Solution {
              
             head = head.next;
         }
-        tempGreater.next = null;
+       
+        tempGreater.next = null; // //To avoid circularity
         tempLess.next =xOrGreaterHead.next;  ;
        
 
